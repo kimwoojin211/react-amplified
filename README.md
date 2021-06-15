@@ -1,3 +1,13 @@
+# React Amplified
+
+## _This project is not in a complete or portfolio ready state, and should not be considered representational of professional work._
+
+Initialization Date:
+
+
+### Practice Exercise:
+This project is an exercise creating a single-page app with React, AWS Amplify, GraphQL, DynamoDB, and Authentication.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -17,6 +27,7 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
+
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
@@ -68,3 +79,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Authors and Contributors
+Authored by: Woo Jin Kim
+
+### Contact
+kimwoojin211@gmail.com
+
+### License
+##### Woo Jin Kim © 2020

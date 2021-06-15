@@ -34,7 +34,10 @@ const App = () => {
     try {
       if (!formState.name || !formState.description) return
       const todo = { ...formState }
+      //todos=[name:W,description:1, name:L, description:2]
+      //todo = name:V,description:3
       setTodos([...todos, todo])
+      //todos becomes [name:W,description:1, name:L, description:2, name:V,description:3]
       setFormState(initialState)
       await API.graphql(graphqlOperation(createTodo, { input: todo }))
     } catch (err) {
@@ -79,4 +82,4 @@ const styles = {
   button: { backgroundColor: 'black', color: 'white', outline: 'none', fontSize: 18, padding: '12px 0px' }
 }
 
-export default withAuthenticator(App)
+export default App
